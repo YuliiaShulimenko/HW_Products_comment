@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0bc321a.css",
-    "main.js": "/static/js/main.65608f74.js",
-    "index.html": "/index.html",
-    "main.c0bc321a.css.map": "/static/css/main.c0bc321a.css.map",
-    "main.65608f74.js.map": "/static/js/main.65608f74.js.map"
+    "main.css": "/HW_Products_comment/static/css/main.c0bc321a.css",
+    "main.js": "/HW_Products_comment/static/js/main.65608f74.js",
+    "index.html": "/HW_Products_comment/index.html",
+    "main.c0bc321a.css.map": "/HW_Products_comment/static/css/main.c0bc321a.css.map",
+    "main.65608f74.js.map": "/HW_Products_comment/static/js/main.65608f74.js.map"
   },
   "entrypoints": [
     "static/css/main.c0bc321a.css",
