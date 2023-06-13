@@ -1,0 +1,63 @@
+
+  
+    
+  
+.button{
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .5s ease;
+    top:-10px;
+    right: -10px; 
+    background: none;
+    font-size: 20px;
+    border: 3px solid rgb(74, 36, 74);
+    color:  rgb(74, 36, 74);
+    background-color: bisque;
+   width: 35px;
+   height: 35px;
+   padding: 4px;
+   border-radius: 50%;
+   justify-content: center;
+   transition: opacity linear 0.3s, transform linear 0.3s;
+}
+
+
+.button:hover{
+opacity: 1;
+transform: translateY(3px);
+}
+
+  .product_div{
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    border:3px solid black;
+    background: rgba(78, 163, 156, 0.641);
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.product_div p{
+padding-top: 10px;
+}
+
+.product_div
+:hover {
+    animation: animateBackground 2s infinite;
+  }
+  
+  @keyframes animateBackground {
+    0% {
+      background-image: linear-gradient(45deg, #dc6993, #ade58d);
+    }
+    50% {
+      background-image: linear-gradient(45deg, #aeea8b, #8aace5);
+    }
+    100% {
+      background-image: linear-gradient(45deg, #d0678e, #aee98c);
+    }
+  }

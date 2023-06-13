@@ -1,0 +1,62 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.app{
+    display: flex;
+    border:3px solid rgb(46, 19, 46);
+    border-radius: 15px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    
+    
+        animation: animateBackground 3s infinite;
+      }
+      
+      @keyframes animateBackground {
+        0% {
+          background-image: linear-gradient(45deg, #ceca45, #dd7070);
+        }
+        50% {
+          background-image: linear-gradient(45deg, #80c15b, #a851be);
+        }
+        100% {
+          background-image: linear-gradient(45deg, #ec88ad, #52ccbe);
+        }
+      }
+      .appDark {
+       
+        border: 5px solid white;
+      }
+    
+    .switch_div{
+        flex-direction: row;
+        display: flex;
+        font-size: 14px;
+        align-items: center;
+        font-style: italic;
+        justify-content: flex-end;
+        padding: 10px;
+        border: none;
+    }
+    
+    .switch_div.dark {
+        color: white;
+      }
+    
+   
+      .nightDark {
+        background-color: rgba(16, 17, 47, 0.968);
+        height: 100vh;
+        
+      }
+     
+      .switchDivDarkH{
+        color: antiquewhite;
+      }
+
