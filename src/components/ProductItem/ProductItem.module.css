@@ -45,8 +45,7 @@ transform: translateY(3px);
 padding-top: 10px;
 }
 
-.product_div
-:hover {
+.product_div:hover {
     animation: animateBackground 2s infinite;
   }
   
@@ -60,4 +59,5 @@ padding-top: 10px;
     100% {
       background-image: linear-gradient(45deg, #d0678e, #aee98c);
     }
+    
   }
